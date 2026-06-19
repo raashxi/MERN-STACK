@@ -6,8 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media Query</title>
   <style>
-    div {
+    .first {
       background-color: rebeccapurple;
+      height: 500px;
+      width: 500px;
+    }
+    .second{
+      background-color: aqua;
       height: 500px;
       width: 500px;
     }
@@ -15,17 +20,24 @@
     @media (max-width: 600px) {
 
       /* CSS for screens below or equal to 600px wide */
-      div {
+      .first {
         height: 200px;
         width: 200px;
       }
+      .second {
+        height: 200px;
+        width: 200px;
+        margin-top: 1rem;
+      }
+
     }
   </style>
 </head>
 
 <body>
   <h1>Media Query</h1>
-  <div></div>
+  <div class="first"></div>
+  <div class="second"></div>
 </body>
 
 </html>

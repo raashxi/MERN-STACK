@@ -15,12 +15,9 @@
 
 p {
   color: yellow;
+  margin: 0;
+  padding: 0;
 }
-
-.box {
-  padding: 10px;
-}
-
 
 .white-text {
   color: white;
